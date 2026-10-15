@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端 UI 逐页审阅"
+  short_description: "先逐页设计界面，再收集和统一导出修改意见，确认设计后进入正式开发"
+  default_prompt: "使用 $frontend-ui-review 先为我的前端制作逐页 UI 设计和修改意见框，导出全部反馈，确认设计后再开发。"

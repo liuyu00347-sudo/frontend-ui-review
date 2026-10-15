@@ -1,0 +1,51 @@
+{
+  "schema": "frontend-ui-review-board/v1",
+  "projectId": "atlas-workspace-demo",
+  "title": "Atlas Workspace · UI Review Demo",
+  "revision": "demo-v1",
+  "description": "A fictional, privacy-safe example for demonstrating the frontend-ui-review workflow. All copy and metrics are invented.",
+  "entries": [
+    {
+      "id": "01",
+      "title": "Sign-in",
+      "note": "Brand mark, sign-in form, and primary action.",
+      "kind": "Page",
+      "views": [
+        {
+          "id": "desktop",
+          "label": "Desktop",
+          "image": "01-desktop.png",
+          "sha256": "a0d9427338da31ca0d5c5d33f94214ea2a8e9dab1e92f86a3d0653820f5ecbc8"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Overview dashboard",
+      "note": "Navigation rail, metric cards, progress chart, and activity list.",
+      "kind": "Page",
+      "views": [
+        {
+          "id": "desktop",
+          "label": "Desktop",
+          "image": "02-desktop.png",
+          "sha256": "6e32887a47ad613d9b132bda9e7b0efa23ce84e4330240243def46038cade2e5"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Knowledge article",
+      "note": "Mobile reading layout with search, article content, and save action.",
+      "kind": "Page",
+      "views": [
+        {
+          "id": "mobile",
+          "label": "Mobile",
+          "image": "03-mobile.png",
+          "sha256": "30f40bea12ce5aa4555a38f37456eb993789f40a3ed79a34386a8ebe7c79d0f9"
+        }
+      ]
+    }
+  ]
+}
